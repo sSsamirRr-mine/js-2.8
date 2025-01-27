@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    border-bottom: 2px solid #dedbdb;
+    background-color: black;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.ava {
+    border-radius: 50px;
+}
+
+li>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+    gap: 6px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.section-one {
+    width: 650px;
+    height: 746px;
+    border-radius: 50px;
+    border: 1px solid #dedbdb;
+    margin-top: 40px;
+    padding: 60px;
+}
+
+.fox {
+    position: relative;
+    width: 670px;
+    height: 1197px;
+    border-radius: 50px;
+    margin-top: 40px;
+    padding: 60px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abdunur_sila {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.abdunur_sila h5 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #f0400f;
+}
+
+#h1s {
+    margin-top: 131px;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0e0d5d;
+    /* margin-top: 30px; */
+}
+
+.choose {
+    height: 70px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    margin-top: 25px;
+    padding: 8px 20px;
+
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parents {
+    color: #757575;
+
+}
+
+.student {
+    background-color: white;
+    line-height: 54px;
+    padding: 0 15px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    height: 44px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.password {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 17px;
+    top: 36px;
+    cursor: pointer;
+}
+
+#btn {
+    padding: 5px 20px;
+    margin-top: 30px;
+    background-color: #f27d5d;
+    color: white;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+#btn:disabled {
+    background-color: gray;
+    color: black;
+}
+
+.log {
+    padding: 5px 15px;
+    margin-top: 30px;
+    background-color: #f27d5d;
+    color: white;
+    width: 102px;
+    height: 57px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+
+    bottom: 25px;
+}
+
+.ism {
+    font-size: 40px;
+    color: #0e0d5d;
+    font-family: Inter;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.op{
+    margin-top: -60px;
+    font-size: 20px;
+    color: #0e0d5d;
+    font-family: Inter;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coin {
+    font-family: Inter;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    height: 100px;
+    width: 560px;
+    color: #ffea00;
+    text-shadow: 5px 5px black;
+    margin-top: 40px;
+    margin-bottom: 65px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./Img/Coin\ sec.svg);
+}
+
+.avatar {
+    width: 600px;
+    height: 451px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./Img/logins\ logo.svg);
+}
+
+.daraja {
+    margin-top: 40px;
+    width: 480px;
+    height: 190px;
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./Img/Daraja.png);
+}
